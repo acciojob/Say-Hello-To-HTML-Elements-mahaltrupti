@@ -1,1 +1,25 @@
-
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #2c3e50;
+      font-size: 40px;
+      background: #dfe6e9;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+    }
+    h1:hover {
+      transform: scale(1.1);
+      color: crimson;
+    }
+  </style>
